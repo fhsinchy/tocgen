@@ -25,4 +25,8 @@ setup(
     ],
     py_modules=["tocgen"],
     entry_points={"console_scripts": ["tocgen=tocgen:main"]},
+    install_requires=[
+        'beautifulsoup4',
+        'requests'
+    ],
 )
